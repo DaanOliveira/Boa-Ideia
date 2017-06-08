@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cadastrar));
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -85,8 +86,12 @@
             // 
             // btnCadastrar
             // 
-            this.btnCadastrar.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrar.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.btnCadastrar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnCadastrar.FlatAppearance.BorderSize = 3;
+            this.btnCadastrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGreen;
+            this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrar.ForeColor = System.Drawing.Color.White;
             this.btnCadastrar.Location = new System.Drawing.Point(540, 75);
             this.btnCadastrar.Margin = new System.Windows.Forms.Padding(4);
@@ -99,8 +104,12 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button2.FlatAppearance.BorderSize = 3;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGreen;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(540, 130);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
@@ -113,8 +122,12 @@
             // 
             // btnListar
             // 
-            this.btnListar.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnListar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnListar.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.btnListar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnListar.FlatAppearance.BorderSize = 3;
+            this.btnListar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGreen;
+            this.btnListar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnListar.ForeColor = System.Drawing.Color.White;
             this.btnListar.Location = new System.Drawing.Point(540, 185);
             this.btnListar.Margin = new System.Windows.Forms.Padding(4);
@@ -127,8 +140,12 @@
             // 
             // btnExcluir
             // 
-            this.btnExcluir.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnExcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExcluir.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.btnExcluir.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnExcluir.FlatAppearance.BorderSize = 3;
+            this.btnExcluir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGreen;
+            this.btnExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExcluir.ForeColor = System.Drawing.Color.White;
             this.btnExcluir.Location = new System.Drawing.Point(540, 18);
             this.btnExcluir.Margin = new System.Windows.Forms.Padding(4);
@@ -155,10 +172,11 @@
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtUsuario);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Cadastrar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Boa Ideia!";
+            this.Text = "Boa Ideia [Ideias]";
             this.Load += new System.EventHandler(this.Cadastrar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
