@@ -68,7 +68,7 @@ namespace Artigos
                     command.Parameters.Add(new SqlParameter("@descricao", txtSenha.Text));
                     command.ExecuteNonQuery();
 
-                    MessageBox.Show("Cadastrado com sucesso!");
+                    MessageBox.Show("Ideia Registrada!");
                     LimparTela();
                 }
                 catch (Exception ex)
